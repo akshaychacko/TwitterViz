@@ -1,0 +1,59 @@
+<html>
+	<head>
+	<title>
+	Frequency Distribution of keywords
+	</title>
+	</head>
+	<style>
+		body {
+			font-family: Algerian;
+		}
+		.row {
+		  display: flex;
+		}
+
+		.column {
+		  flex: 100%;
+		  padding: 20px;
+		}
+
+		.center {
+			margin: auto;
+			width: 90%;
+			border: 3px solid green;
+			padding: 10px;
+		}
+
+		h2 {
+			text-align: center;	
+		}
+
+		img {
+			display: block;
+			  margin-left: auto;
+			  margin-right: auto;
+			  width: 50%;
+		}
+	</style>
+		<body>
+		<button onclick="goBack()">Go Back</button>
+		<script>
+			function goBack() {
+				window.history.back();
+			}
+		</script>	
+		<div class="center">
+		<div class="row">
+			  <div class="column">
+					<img src="valueCounts_sentiment_pie.png" alt="dist" style="width:100%" height="600">
+			  </div>
+			  <div class="column">
+				<img src="valueCounts_subjectivity_pie.png" alt="negative" style="width:100%" height="600">
+			  </div>
+		</div>
+		
+
+		
+		</div>
+		</body>
+</html>
